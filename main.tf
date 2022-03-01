@@ -5,9 +5,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-0f0aee0f3b2867ea6"
+  ami           = "ami-01abd5d1c4bc01cbf"
   instance_type = "t2.micro"
   tags = {
-    Name = "Revoked-Image"
+    Name = "Image Not Tracked by HCP"
   }
 }
